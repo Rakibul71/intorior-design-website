@@ -1,0 +1,21 @@
+.box{
+    border: 1px solid blue;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+@media only screen and (max-width:320px) {
+    .img{
+        width:250px;
+    }
+}
+
+.card:hover{
+    background-color: rgb(156, 151, 151);
+    transition: 0.6s ease-in-out;
+    color: #fff;
+}

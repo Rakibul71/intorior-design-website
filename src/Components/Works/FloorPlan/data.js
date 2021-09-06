@@ -1,0 +1,44 @@
+const Images = [
+    {
+        id:101,
+        url:'/plans/floor-plan/house-design.png',
+        name:'house-design',
+    },
+    {
+        id:102,
+        url:'/plans/floor-plan/house-design2.jpg',
+        name:'house-design1',
+    },
+    {
+        id:103,
+        url:'/plans/floor-plan/house-design3.jpg',
+        name:'house-design3',
+    },
+    {
+        id:104,
+        url:'/plans/floor-plan/house-design4.jpg',
+        name:'house-design4',
+    },
+    {
+        id:105,
+        url:'/plans/floor-plan/house-design5.jpg',
+        name:'house-design5',
+    },
+    {
+        id:106,
+        url:'/plans/floor-plan/house-design6.jpg',
+        name:'house-design6',
+    },
+    {
+        id:107,
+        url:'/plans/floor-plan/house-design7.jpg',
+        name:'house-design7',
+    },
+    {
+        id:108,
+        url:'/plans/floor-plan/house-design8.jpg',
+        name:'house-design8',
+    },
+]
+
+export default Images;

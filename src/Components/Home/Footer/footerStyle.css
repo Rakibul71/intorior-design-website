@@ -1,0 +1,68 @@
+.box{
+    border: 1px solid black;
+
+}
+
+.footer-container{
+    background-color: black;
+}
+
+.heading{
+    font-size: 25px;
+    padding: 10px;
+    color: #fff;
+    border-bottom: 4px solid red;
+    width: max-content;
+}
+.para{
+    color: #fff;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px;
+}
+
+.fi-twiter{
+    padding:12px;
+    font-size: 25px;
+}
+
+.fi-instagram{
+    padding:12px;
+    font-size: 25px;
+}
+
+.fi-facebook{
+    padding:12px;
+    font-size: 25px;
+}
+
+.heading-2{
+    font-size: 25px;
+    border-bottom: 4px solid red;
+    color: blanchedalmond;
+    padding: 10px;
+    width: max-content;
+}
+
+.item{
+    list-style: none;
+}
+
+.item li{
+    color: #fff;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.add{
+    color: #fff;
+}
+
+.location{
+    padding-right: 8px;
+    font-size: 28px;
+}
+
+.phone{
+    padding-right:8px;
+    font-size: 28px;
+}

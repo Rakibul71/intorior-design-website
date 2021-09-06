@@ -1,0 +1,76 @@
+
+/* Heading Style */
+.exterior{
+    background-color: #834d9b;
+}
+.heading-one{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* -----------------------manin images-------------------- */
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-mod{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  animation-name: open;
+  animation-duration: 2s;
+  scroll-behavior: smooth;
+}
+.img-container-mod{
+  width: 80%;
+  margin: auto;
+  padding:40px 60px;
+  background: rgb(65, 61, 61,0.8);
+  /* background: rgba(240, 240, 240, 0.9); */
+  border-radius: 30px;
+}
+.img-container-mod img{
+  width: 100%;
+  height: max-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 40px;
+}
+
+.close-icon{
+  float: right;
+  font-size: 25px;
+  font-weight: bolder;
+  cursor: pointer;
+  color: #fff;
+}
+.close-icon:hover{
+  color: red;
+}
+
+@media screen and (max-width:500px) {
+  .close-icon{
+      position: absolute;
+      text-align: center;
+      left: 50%;
+  }
+  .img-container-mod{
+      width: 100%;
+      margin-top: 100px;
+      padding: 5px 30px;
+  }
+}
+
+@keyframes open {
+  from{opacity: 0;}
+  to{opacity: 1;}
+}

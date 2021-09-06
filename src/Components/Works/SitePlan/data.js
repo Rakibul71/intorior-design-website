@@ -1,0 +1,49 @@
+const Images = [
+    {
+        id:101,
+        url:'/plans/site-plan/sketch-plan.png',
+        name:'sketch-plan',
+    },
+    {
+        id:102,
+        url:'/plans/site-plan/sketch-plan2.png',
+        name:'sketch-plan1',
+    },
+    {
+        id:103,
+        url:'/plans/site-plan/sketch-plan3.gif',
+        name:'sketch-plan3',
+    },
+    {
+        id:104,
+        url:'/plans/site-plan/sketch-plan4.jpg',
+        name:'sketch-plan4',
+    },
+    {
+        id:105,
+        url:'/plans/site-plan/sketch-plan5.jpg',
+        name:'sketch-plan5',
+    },
+    {
+        id:106,
+        url:'/plans/site-plan/sketch-plan6.jpg',
+        name:'sketch-plan6',
+    },
+    {
+        id:107,
+        url:'/plans/site-plan/sketch-plan7.gif',
+        name:'sketch-plan6',
+    },
+    {
+        id:108,
+        url:'/plans/site-plan/sketch-plan8.gif',
+        name:'sketch-plan6',
+    },
+    {
+        id:109,
+        url:'/plans/site-plan/sketch-plan9.jpg',
+        name:'sketch-plan6',
+    },
+]
+
+export default Images;

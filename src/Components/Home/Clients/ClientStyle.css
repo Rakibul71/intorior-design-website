@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    border: 1px solid black;
+}
+
+.image{
+    background-position: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+}
+
+.content h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
