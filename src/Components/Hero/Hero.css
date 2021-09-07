@@ -1,0 +1,83 @@
+.architecture {
+  display: flex;
+  margin-top: 15px;
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.architecture-left {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.architecture-right {
+  flex: 4;
+}
+.blog {
+  display: flex;
+}
+.blog-left {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blog-right {
+  flex: 4;
+}
+.course {
+  display: flex;
+}
+.course-left {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.course-right {
+  flex: 4;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+  .architecture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .architecture-left {
+    text-align: center;
+  }
+  .architecture-right {
+    margin: 10px;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .blog-left {
+    text-align: center;
+  }
+  .blog-right {
+    margin: 10px;
+  }
+  .course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .course-left {
+    text-align: center;
+  }
+  .course-right {
+    margin: 10px;
+  }
+}
